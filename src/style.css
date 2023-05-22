@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --dark-gray: hsl(234, 12%, 34%);
+    --gray: hsl(229, 6%, 66%);
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100%;
+    color: var(--gray);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-block: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    /* background-color: blueviolet; */
+    width: 500px;
+    text-align: center;
+}
+
+header .tittle {
+    color: var(--dark-gray);
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+header span {
+    /* background-color: blue; */
+    color: var(--dark-gray);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main {
+    /* background-color: brown; */
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    /* background-color: rgb(141, 227, 165); */
+    width: 300px;
+    height: 230px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 5px 10px;
+    position: relative;
+}
+
+section h2 {
+    color: var(--dark-gray);
+    font-weight: 400;
+}
+
+section p {
+    width: 250px;
+}
+
+section img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.supervisor {
+    border-top: var(--cyan) 5px solid;
+}
+
+.supervisor:hover {
+    background-color: var(--cyan);
+    color: var(--white);
+    transition: .5s;
+}
+
+.team-builder {
+    border-top: var(--red) 5px solid;
+}
+
+.team-builder:hover {
+    background-color: var(--red);
+    color: var(--white);
+    transition: .5s;
+}
+
+.karma {
+    border-top: var(--orange) 5px solid;
+}
+
+.karma:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    transition: .5s;
+}
+
+.calculator {
+    border-top: var(--blue) 5px solid;
+}
+
+.calculator:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    transition: .5s;
+}
+
+div.mid {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
